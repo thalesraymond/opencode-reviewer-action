@@ -1,0 +1,4 @@
+name: OpenCode Reviewer Action
+runs:
+  using: node20
+  main: dist/index.js
