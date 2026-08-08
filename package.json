@@ -23,7 +23,7 @@
     "eslint-config-prettier": "latest",
     "globals": "latest",
     "prettier": "latest",
-    "typescript": "^5.9.2",
+    "typescript": "^6.0.3",
     "typescript-eslint": "latest",
     "vitest": "latest"
   }
