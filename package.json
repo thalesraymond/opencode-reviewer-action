@@ -1,0 +1,30 @@
+{
+  "name": "opencode-reviewer-action",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A GitHub Action scaffold using TypeScript, Vitest, ESLint, Prettier, and esbuild.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node20 --outfile=dist/index.js --format=cjs --banner:js='#!/usr/bin/env node'",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "esbuild": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "globals": "latest",
+    "prettier": "latest",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "latest",
+    "vitest": "latest"
+  }
+}
