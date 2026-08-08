@@ -1,2 +1,10 @@
 dist/
 docs/
+
+package-lock.yaml
+*.md
+release-please-config.json
+eslint.config.mjs
+.gitignore
+
+node_modules/
